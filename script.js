@@ -14,7 +14,6 @@ shuffleButton.onclick = function(){
 
 drawButton.onclick = function(){
     card = draw(deck.cards);
-    cardLabel.textContent = card;
 }
 
 resetButton.onclick = function(){
