@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label id="drawnCard">click to draw</label>
-    <div id="buttonContainer">
-        <button id="drawCardButton" class="button">Draw Card</button>
-        <button id="shuffleDeckButton" class="button">Shuffle Deck</button>
-        <button id="resetButton" class="button">Reset</button>
-    </div>
-    <div id="drawnCardsContainer">
-        <list id="drawnCardsList"></list>
+    
+    <div id="wrapper">
+        <h1 id="title">WIP Savage Worlds Initiative Tracker</h1>
+        <h2>(CSS is hard)</h2>
+        <label id="drawnCard">Click to Draw</label>
+        <div id="buttonContainer">
+            <button id="drawCardButton" class="button">Draw Card</button>
+            <button id="shuffleDeckButton" class="button">Shuffle Deck</button>
+            <button id="resetButton" class="button">New Deck</button>
+        </div>
+
+        <div id="initiativeContainer">
+            <div id="drawnCardsContainer">
+                <label id ="cardHistoryTitle">Card History</label>
+                <div id="cardHistory">
+                    <ul id="drawnCardsList"></ul>
+                </div>
+            </div>
+
+            <div id="combatantsList">
+                <label id="combatants">Combatants</label>
+                <ul id="listedCombatants">
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>

@@ -1,3 +1,7 @@
+#wrapper{
+    border: solid red;
+}
+
 #cardLabel{
     display:block;
     font-size:10em;
@@ -6,7 +10,8 @@
 
 #drawnCard{
     display:block;
-    font-size: 5em;
+    border-radius: 10px;
+    font-size: 3em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -14,6 +19,24 @@
 #buttonContainer{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#drawnCardsContainer{
+    display: block;
+    text-align: center;
+}
+
+#cardHistory{
+    display:block;
+    text-align: left;
+    border-bottom: solid black;
+}
+
+#drawnCardsList{
+    display: block;
+    text-align:left;
+    list-style-type: none;
 }
 
 .button{
