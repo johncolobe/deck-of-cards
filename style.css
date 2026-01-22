@@ -1,5 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: light grey;
+}
+
 #wrapper{
-    border: solid red;
+    height: 100vh;
+    width: 100%;
 }
 
 #cardLabel{
@@ -9,28 +21,70 @@
 }
 
 #drawnCard{
-    display:block;
+    display:flex;
+    justify-content: center;
     border-radius: 10px;
     font-size: 3em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin:20px;
+    border: solid blue;
 }
 
 #buttonContainer{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    border: solid green;
+}
+
+#initiativeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    border: solid purple;
 }
 
 #drawnCardsContainer{
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
+#cardHistoryTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: thin solid black;
+}
+
 #cardHistory{
-    display:block;
+    display:flex;
+    width:100%;
+    justify-content: center;
     text-align: left;
-    border-bottom: solid black;
+
+}
+
+#combatantsList{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#combatants{
+    margin-bottom: 10px;
+    border-bottom: thin solid black;
+}
+
+#listedCombatants{
+    list-style-type: none;
+}
+
+#combatantSubmit{
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
 }
 
 #drawnCardsList{
